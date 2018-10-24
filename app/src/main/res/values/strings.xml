@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DankSounds</string>
+    <string-array name="settings">
+        <item>Stop Sounds On Exit</item>
+        <item>Change Theme</item>
+        <item>About Developer</item>
+    </string-array>
+</resources>

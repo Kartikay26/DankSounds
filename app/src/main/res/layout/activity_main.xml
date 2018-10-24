@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_o_1725605"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/yeboiii_remix_Tv"
+        android:layout_width="90dp"
+        android:layout_height="0dp"
+
+        android:layout_marginTop="8dp"
+        android:text="Ye Boiii Smoker of Weed"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yeboiii_remix" />
+
+    <Button
+        android:id="@+id/yeboiii_remix"
+        android:layout_width="90dp"
+        android:layout_height="95dp"
+
+        android:background="@drawable/circle"
+        android:drawableTop="@drawable/meme"
+        android:onClick="yeboiiismokerofweed"
+        android:paddingTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/hmmm2" />
+
+    <TextView
+        android:id="@+id/hmmm_Tv2"
+        android:layout_width="87dp"
+        android:layout_height="37dp"
+
+        android:layout_marginTop="8dp"
+        android:text="Hmmmmmm"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/hmmm2"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="@+id/hmmm2"
+        app:layout_constraintTop_toBottomOf="@+id/hmmm2" />
+
+    <Button
+        android:id="@+id/hmmm2"
+        android:layout_width="90dp"
+        android:layout_height="95dp"
+
+        android:layout_marginTop="8dp"
+        android:background="@drawable/circle"
+        android:drawableTop="@drawable/meme"
+        android:onClick="hmmm"
+        android:paddingTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/harrypotter_Tv"
+        app:layout_constraintStart_toStartOf="@+id/harrypotter_Tv"
+        app:layout_constraintTop_toBottomOf="@+id/harrypotter_Tv" />
+
+    <Button
+            android:id="@+id/roblox_death"
+            android:layout_width="90dp"
+            android:layout_height="95dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/circle"
+            android:drawableTop="@drawable/meme"
+            android:onClick="roblox_death"
+            android:paddingTop="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/illuminati"
+            android:layout_width="90dp"
+            android:layout_height="95dp"
+
+            android:layout_marginTop="16dp"
+            android:background="@drawable/circle"
+            android:drawableTop="@drawable/meme"
+            android:onClick="illumminati_death"
+            android:paddingTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="86dp"
+            android:layout_height="33dp"
+            android:layout_marginTop="8dp"
+            android:text="Roblox Death Sound"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/roblox_death"
+            app:layout_constraintStart_toStartOf="@+id/roblox_death"
+            app:layout_constraintTop_toBottomOf="@+id/roblox_death" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="91dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="8dp"
+        android:text="Illuminati Roblox"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/illuminati"
+        app:layout_constraintStart_toStartOf="@+id/illuminati"
+        app:layout_constraintTop_toBottomOf="@+id/illuminati" />
+
+        <Button
+            android:id="@+id/thomas_roblox"
+            android:layout_width="90dp"
+            android:layout_height="95dp"
+            android:layout_marginEnd="24dp"
+
+            android:layout_marginTop="16dp"
+            android:background="@drawable/circle"
+            android:drawableTop="@drawable/meme"
+            android:onClick="roblox_thomas"
+            android:paddingTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/thomas_roblox_TV"
+            android:layout_width="87dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="8dp"
+            android:text="Thomas Roblox"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+
+            app:layout_constraintEnd_toEndOf="@+id/thomas_roblox"
+            app:layout_constraintStart_toStartOf="@+id/thomas_roblox"
+            app:layout_constraintTop_toBottomOf="@+id/thomas_roblox" />
+
+    <Button
+        android:id="@+id/harrypotter"
+        android:layout_width="90dp"
+        android:layout_height="95dp"
+
+        android:layout_marginTop="16dp"
+        android:background="@drawable/circle"
+        android:drawableTop="@drawable/meme"
+        android:onClick="harrypotter"
+        android:paddingTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/harrypotter_Tv"
+        android:layout_width="87dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="8dp"
+        android:text="Harry Potter Failed Cover"
+        android:textAlignment="center"
+
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/harrypotter"
+        app:layout_constraintStart_toStartOf="@+id/harrypotter"
+        app:layout_constraintTop_toBottomOf="@+id/harrypotter" />
+
+    <Button
+        android:id="@+id/happybday"
+        android:layout_width="90dp"
+        android:layout_height="95dp"
+
+        android:background="@drawable/circle"
+        android:drawableTop="@drawable/meme"
+        android:onClick="happybday"
+        android:paddingTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/harrypotter" />
+
+    <TextView
+        android:id="@+id/happ_Tv"
+        android:layout_width="87dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="8dp"
+        android:text="Happy Birthday"
+
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/happybday" />
+
+    <Button
+        android:id="@+id/yeboiii"
+        android:layout_width="90dp"
+        android:layout_height="95dp"
+
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/circle"
+        android:drawableTop="@drawable/meme"
+        android:onClick="yeboiii"
+        android:paddingTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/happybday" />
+
+    <TextView
+        android:id="@+id/boiii_TV"
+        android:layout_width="87dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="8dp"
+        android:text="Ye Boiii"
+
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.909"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yeboiii" />
+
+    <Button
+        android:id="@+id/alotofdamage"
+        android:layout_width="90dp"
+        android:layout_height="95dp"
+
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/circle"
+        android:drawableTop="@drawable/meme"
+        android:onClick="alotofdamage"
+        android:paddingTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/yeboiii_remix" />
+
+    <TextView
+        android:id="@+id/alotofdamage_TV"
+        android:layout_width="87dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="8dp"
+        android:text="A lot of damage"
+
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.909"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/alotofdamage" />
+
+    <Button
+        android:id="@+id/datboiii"
+        android:layout_width="90dp"
+        android:layout_height="95dp"
+
+        android:layout_marginTop="8dp"
+        android:background="@drawable/circle"
+        android:drawableTop="@drawable/meme"
+        android:onClick="datboiii"
+        android:paddingTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/hmmm2"
+        app:layout_constraintStart_toStartOf="@+id/hmmm2"
+        app:layout_constraintTop_toBottomOf="@+id/hmmm_Tv2" />
+
+    <TextView
+        android:id="@+id/datboiii_TV"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Shit whadupp"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/datboiii"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/datboiii"
+        app:layout_constraintTop_toBottomOf="@+id/datboiii" />
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>
+</ScrollView>

@@ -16,7 +16,7 @@ import android.widget.Toast;
 
 public class about_dev extends AppCompatActivity {
     String maintitle[] = {"Name","Email","Bio"};
-    String info[] = {"Vaibhav Sharma ","17532va@gmail.com","Vaibhav is a UG at NIT Hamirpur , he made this app in first year"};
+    String info[] = {"Vaibhav Sharma ","17532va@gmail.com","Vaibhav is a chakka at NIT Hamirpur , he made this app in first year"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
